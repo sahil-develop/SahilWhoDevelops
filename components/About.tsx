@@ -48,10 +48,10 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" ref={sectionRef} style={{ padding: "120px 40px", maxWidth: "1100px", margin: "0 auto" }}>
+    <section id="about" ref={sectionRef} className="resp-section" style={{ padding: "120px 40px", maxWidth: "1100px", margin: "0 auto" }}>
       <div className="reveal section-label">01 — About</div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}>
+      <div className="resp-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}>
         <div>
           <h2 className="reveal" style={{
             fontFamily: "var(--font-display)", fontSize: "clamp(32px,4vw,52px)",

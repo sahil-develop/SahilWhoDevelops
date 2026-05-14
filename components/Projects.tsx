@@ -57,7 +57,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <section id="projects" ref={sectionRef} style={{
+    <section id="projects" ref={sectionRef} className="resp-section" style={{
       padding: "120px 40px", maxWidth: "1100px", margin: "0 auto",
     }}>
       <div className="reveal section-label">04 — Projects</div>
@@ -68,7 +68,7 @@ export default function Projects() {
         What I&apos;ve <span className="gradient-text">Built.</span>
       </h2>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(480px,1fr))", gap: "2px" }}>
+      <div className="resp-proj" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(480px,1fr))", gap: "2px" }}>
         {PROJECTS.map((proj, i) => (
           <div key={proj.name} className="reveal"
             onMouseEnter={() => setHovered(i)}

@@ -207,7 +207,7 @@ export default function SystemDesign() {
   }, []);
 
   return (
-    <section id="systemdesign" ref={sectionRef} style={{
+    <section id="systemdesign" ref={sectionRef} className="resp-section" style={{
       padding: "120px 40px", maxWidth: "1100px", margin: "0 auto",
     }}>
       <div className="reveal section-label">05 — System Design</div>
@@ -221,7 +221,7 @@ export default function SystemDesign() {
         Every system I build is designed for resilience, scalability, and observability from day one.
       </p>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2px", marginBottom: "2px" }}>
+      <div className="resp-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2px", marginBottom: "2px" }}>
         {DIAGRAMS.map(d => (
           <div key={d.title} className="reveal" style={{ display: "flex" }}>
             <MiniDiagram diagram={d} />
@@ -229,7 +229,7 @@ export default function SystemDesign() {
         ))}
       </div>
 
-      <div className="reveal" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2px" }}>
+      <div className="reveal resp-3col" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "2px" }}>
         {[
           { icon: "⚡", title: "Event-Driven", desc: "RabbitMQ message queues for async processing and service decoupling" },
           { icon: "🔄", title: "CI/CD First", desc: "GitHub Actions + ArgoCD for automated testing and zero-downtime deploys" },

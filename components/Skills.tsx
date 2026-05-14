@@ -86,7 +86,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <section id="skills" ref={sectionRef} style={{
+    <section id="skills" ref={sectionRef} className="resp-section" style={{
       padding: "120px 40px", maxWidth: "1100px", margin: "0 auto",
     }}>
       <div className="reveal section-label">02 — Skills</div>

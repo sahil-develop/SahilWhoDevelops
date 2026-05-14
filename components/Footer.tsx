@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer style={{
+    <footer className="resp-footer" style={{
       borderTop: "1px solid var(--border)", padding: "40px",
       display: "flex", justifyContent: "space-between", alignItems: "center",
       maxWidth: "1100px", margin: "0 auto",

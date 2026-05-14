@@ -22,12 +22,12 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" ref={sectionRef} style={{
+    <section id="contact" ref={sectionRef} className="resp-section-contact" style={{
       padding: "120px 40px 80px", maxWidth: "1100px", margin: "0 auto",
     }}>
       <div className="reveal section-label">06 — Contact</div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}>
+      <div className="resp-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}>
         <div>
           <h2 className="reveal" style={{
             fontFamily: "var(--font-display)", fontSize: "clamp(28px,3.5vw,52px)",

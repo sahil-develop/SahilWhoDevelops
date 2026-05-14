@@ -81,7 +81,7 @@ export default function Experience() {
   }, []);
 
   return (
-    <section id="experience" ref={sectionRef} style={{
+    <section id="experience" ref={sectionRef} className="resp-section" style={{
       padding: "120px 40px", maxWidth: "1100px", margin: "0 auto",
     }}>
       <div className="reveal section-label">03 — Experience</div>
@@ -92,9 +92,9 @@ export default function Experience() {
         Where I&apos;ve <span className="gradient-text">Shipped.</span>
       </h2>
 
-      <div style={{ display: "grid", gridTemplateColumns: "280px 1fr", gap: "2px" }}>
+      <div className="resp-exp" style={{ display: "grid", gridTemplateColumns: "280px 1fr", gap: "2px" }}>
         {/* Company list */}
-        <div style={{ background: "var(--surface)", border: "1px solid var(--border)" }}>
+        <div className="exp-company-list" style={{ background: "var(--surface)", border: "1px solid var(--border)" }}>
           {EXPERIENCE.map((exp, i) => (
             <button key={exp.company} onClick={() => setOpenIdx(i)}
               style={{
