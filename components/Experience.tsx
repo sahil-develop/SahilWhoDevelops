@@ -7,9 +7,9 @@ const EXPERIENCE = [
     role: "Backend Engineer",
     period: "2024 – Present",
     color: "#00d4ff",
-    tech: ["NestJS","TypeScript","PostgreSQL","Redis","RabbitMQ","AWS","ArgoCD"],
+    tech: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "RabbitMQ", "AWS", "ArgoCD"],
     achievements: [
-      "Architected scalable case management system supporting 10+ ADR services",
+      "Architected scalable case management system supporting 15+ ADR services",
       "Implemented Redis-based queue system improving throughput by 40%",
       "Designed event-driven microservices architecture with RabbitMQ",
       "Built CI/CD pipelines with ArgoCD for zero-downtime deployments",
@@ -20,7 +20,7 @@ const EXPERIENCE = [
     role: "Backend Developer",
     period: "2023 – 2024",
     color: "#7c3aed",
-    tech: ["Node.js","TypeScript","MongoDB","AWS","Docker","Stripe"],
+    tech: ["Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "Stripe"],
     achievements: [
       "Integrated Stripe payment processing for subscription management",
       "Designed RESTful APIs consumed by 5k+ daily active users",
@@ -33,7 +33,7 @@ const EXPERIENCE = [
     role: "Backend Developer",
     period: "2023",
     color: "#10b981",
-    tech: ["NestJS","PostgreSQL","Redis","Zoom API","Stripe","Docker"],
+    tech: ["NestJS", "PostgreSQL", "Redis", "Zoom API", "Stripe", "Docker"],
     achievements: [
       "Built real-time clinic management system from scratch",
       "Integrated Zoom API for telemedicine video consultations",
@@ -46,7 +46,7 @@ const EXPERIENCE = [
     role: "Full Stack Developer",
     period: "2022 – 2023",
     color: "#f59e0b",
-    tech: ["Node.js","React","MongoDB","Stripe","Bitcoin API","AWS"],
+    tech: ["Node.js", "React", "MongoDB", "Stripe", "Bitcoin API", "AWS"],
     achievements: [
       "Built e-commerce platform handling 500+ daily transactions",
       "Integrated Bitcoin payment gateway for crypto checkout",
@@ -59,7 +59,7 @@ const EXPERIENCE = [
     role: "Backend Developer",
     period: "2022",
     color: "#ef4444",
-    tech: ["Node.js","PostgreSQL","Docker","GitHub Actions"],
+    tech: ["Node.js", "PostgreSQL", "Docker", "GitHub Actions"],
     achievements: [
       "Built vehicle history logging API with 99.9% uptime",
       "Designed automated CI/CD pipeline with GitHub Actions",
