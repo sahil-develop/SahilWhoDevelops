@@ -9,7 +9,7 @@ const PROJECTS = [
     description: "Enterprise dispute resolution platform built for one of Canada's largest ADR chambers. Supports 15+ ADR service types with Zoom for hearings, QuickBooks Online for invoicing, Google Calendar for scheduling, and Google OAuth — all on a microservices backbone with Azure Storage for documents.",
     problem: "Manual ADR processes across a large Canadian chamber needed a unified, scalable digital platform to manage cases, hearings, billing, and scheduling end-to-end.",
     tech: ["NestJS", "TypeScript", "PostgreSQL", "Redis", "RabbitMQ", "ArgoCD", "Docker", "Zoom", "QuickBooks", "Azure Storage", "Google Calendar", "Google OAuth"],
-    metrics: ["15+ ADR service types", "99.9% uptime SLA", "Multi-party case workflows", "Real-time notifications"],
+    metrics: ["15+ ADR service types", "10+ Training Courses", "Multi-party case workflows", "Real-time notifications"],
     architecture: "Microservices + Event-driven",
   },
   {
@@ -39,7 +39,7 @@ const PROJECTS = [
     description: "Scalable subscription management backend serving 30k+ registered users. Optimized database queries and built efficient API layer with comprehensive logging and monitoring.",
     problem: "Existing backend struggling with subscriber growth, slow queries, no monitoring.",
     tech: ["Node.js", "TypeScript", "MongoDB", "AWS", "Docker", "Stripe", "GitHub Actions"],
-    metrics: ["35% query speedup", "30k+ registered users", "Automated deploys", "99.5% uptime"],
+    metrics: ["35% query speedup", "30k+ registered users", "Automated deploys"],
     architecture: "REST API + Worker Queues",
   },
 ];
